@@ -1,11 +1,11 @@
 # Interfaz para la Visualizacion de Datos del Sensor MQ2
 - Lenguajes a utilizar: HTML, CSS, JS.
 
-#Resumen del proyecto:
+# Resumen del proyecto:
 - En equipos de 4 integrantes, realizar la investigación, análisis, debate, conclusiones de las
 temáticas planteadas.
 
-#Objetivo:
+# Objetivo:
 - Desarrollar una interfaz gráfica para visualizar los datos transmitidos por el sensor MQ2
   mediante Bluetooth.
 - Comprender la recepción de datos desde dispositivos Arduino en una PC.
@@ -17,7 +17,7 @@ temáticas planteadas.
 - Rocio Heredia.
 - Ingrid Torres.
 
-#Link de CANVA:
+# Link de CANVA:
 - 
 
 # Link de Wokwi:
