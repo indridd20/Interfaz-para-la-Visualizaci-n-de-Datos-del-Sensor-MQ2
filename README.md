@@ -18,7 +18,7 @@ temáticas planteadas.
 - Ingrid Torres.
 
 # Link de CANVA:
-- 
+- https://www.canva.com/design/DAGS_H1Nc6c/32dos_Draeva022_LfXeFg/edit?utm_content=DAGS_H1Nc6c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 # Link de Wokwi:
 - https://wokwi.com/projects/410644857847202817
