@@ -2,7 +2,7 @@
 - Lenguajes a utilizar: HTML, CSS, JS.
 
 # Resumen del proyecto:
-- En equipos de 4 integrantes, realizar la investigación, análisis, debate, conclusiones de las
+- En equipos de 5 integrantes, realizar la investigación, análisis, debate, conclusiones de las
 temáticas planteadas.
 
 # Objetivo:
