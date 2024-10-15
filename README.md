@@ -14,3 +14,6 @@
 # Link de Docs:
 - https://docs.google.com/document/d/1hmwmED4RyO5uKUtWQiVdt7ScPWArM_sqGRLOgdf7AOY/edit?usp=sharing
 
+# Link de Trello
+- https://trello.com/b/fpzkkApB/robotica
+
