@@ -155,3 +155,21 @@ header {
     margin-bottom: 2%;
 
 }
+
+#connectButton {
+    margin-top: 20px;         /* Espacio entre el párrafo y el botón */
+    background-color: #4b5320;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+}
+
+#boton-conectar:hover {
+    background-color: #3b4218;
+}
+
