@@ -200,8 +200,6 @@ h2{
 }
 
 
-    
-
 header {
     position: absolute;
     top: 0;
@@ -210,5 +208,10 @@ header {
     margin-right: 80%;
     margin-bottom: 2%;
 
+}
+
+#bton{
+    font-family: 'Poppins', sans-serif;
+    padding: 1%;
 }
 
