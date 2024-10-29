@@ -58,20 +58,24 @@ body {
     text-align: center;
 }
 
-.port-selection {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-bottom: 30px;
+.dropdown {
+    background-color: white; /* Fondo blanco */
+    color: #263300; /* Color del texto */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: border-color 0.3s; /* Efecto de transición */
 }
 
-.port {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: 4px solid #F7F7F7;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-decoration: #000;
+.dropdown:hover {
+    border-color: #263300; /* Cambia el borde al pasar el mouse */
+}
+
+.dropdown option {
+    background-color: white; /* Fondo de las opciones */
+    color: #263300; /* Color del texto de las opciones */
 }
 
 .result-box {
@@ -100,7 +104,7 @@ body {
 }
 
 
-#button{
+#botonComenzar {
     text-decoration: none;
     text-align: center;
     font-family:  'Poppins', sans-serif;
@@ -111,6 +115,21 @@ body {
     width: 15%;
     height: 16%;
     color: #263300;
+    margin-left: 42% ;
+    margin-top: 2%;
+}
+
+#botonSalir {
+    background-color: white;
+    color: #263300;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-family:  Poppins, sans-serif;
     margin-left: 42% ;
     margin-top: 2%;
 }
@@ -126,6 +145,7 @@ footer {
     text-align: center; 
     margin-bottom: 2%;
 }
+
 
 h2{
     text-align: left;
@@ -181,3 +201,14 @@ h2{
 
 
     
+
+header {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    height: 50%;
+    margin-right: 80%;
+    margin-bottom: 2%;
+
+}
+
