@@ -200,15 +200,7 @@ h2{
 }
 
 
-header {
-    position: absolute;
-    top: 0;
-    width: 80%;
-    height: 50%;
-    margin-right: 80%;
-    margin-bottom: 2%;
 
-}
 
 #bton{
     font-family: 'Poppins', sans-serif;
@@ -229,8 +221,23 @@ header {
     align-items: center;
 }
 
-#boton-conectar:hover {
+#connectButton:hover {
     background-color: #3b4218;
 
 }
 
+button{       
+    background-color: #fcf9f9;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+}
+
+.header-sensor{
+    position: relative;
+}
