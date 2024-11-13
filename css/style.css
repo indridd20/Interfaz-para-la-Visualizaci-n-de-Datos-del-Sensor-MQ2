@@ -41,8 +41,8 @@ h2{
     font-family:  'Poppins', sans-serif;
 }
 
-#connectButton {
-    margin-top: 20px;         /* Espacio entre el párrafo y el botón */
+/*#connectButton {
+    margin-top: 20px;         /* Espacio entre el párrafo y el botón 
     background-color: #4b5320;
     color: white;
     border: none;
@@ -52,12 +52,14 @@ h2{
     cursor: pointer;
     transition: background-color 0.3s ease;
     align-items: center;
-}
+} 
+*/
 
-#connectButton:hover {
+/*#connectButton:hover {
     background-color: #3b4218;
 
 }
+*/
 
 #botoninterfaz{
     background-color: #fcf9f9;
@@ -101,7 +103,7 @@ h2{
     margin-top: 2%;
 }
 
-.dropdown {
+#connectDropdown {
     background-color: white; /* Fondo blanco */
     color: #263300; /* Color del texto */
     border: 1px solid #ccc; /* Borde gris claro */
@@ -112,11 +114,11 @@ h2{
     transition: border-color 0.3s; /* Efecto de transición */
 }
 
-.dropdown:hover {
+#connectDropdown:hover {
     border-color: #263300; /* Cambia el borde al pasar el mouse */
 }
 
-.dropdown option {
+#connectDropdown option {
     background-color: white; /* Fondo de las opciones */
     color: #263300; /* Color del texto de las opciones */
 }

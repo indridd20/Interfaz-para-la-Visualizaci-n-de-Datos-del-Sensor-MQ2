@@ -10,19 +10,20 @@
 <body>
     <header>
         <a href="index.html"><button id="botonSalir">← Salir de la app</button></a>
-        <button id="connectButton" type="submit">Conectar dispositivo</button>
+        <!--<button id="connectButton" type="submit">Conectar dispositivo</button>-->
         <a href="sensor.html"><button>Volver a Sensor MQ2</button></a>
     </header>
     
     <main>
         <section class="main-container">
-            <section class="right-section">
+            <section>
                 <h2>Seleccione el puerto serie al que se conectará.</h2>
-                <select class="dropdown">
-                    <option value="" disabled selected>Selecciona un puerto</option>
-                    <option value="wifi">Wifi</option>
-                    <option value="bluetooth">Bluetooth</option>
-                    <option value="usb">Usb</option>
+                <label for="connectDropdown">Seleccionar conexión:</label>
+                <select id="connectDropdown">
+                <option value="">Seleccionar tipo de conexión</option>
+                <option value="bluetooth">Bluetooth</option>
+                <option value="wifi">WiFi</option>
+                <option value="usb">USB</option>
                 </select>
                 <br>
                 <section class="result-box">
@@ -34,6 +35,6 @@
     <footer>
         <h6>© 2024  | Quinto Año PRoA</h6>
     </footer>   
-    <script src="js/interfaz.js"></script>
+    <script src="interfaz.js"></script>
 </body>
 </html>
