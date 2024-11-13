@@ -226,18 +226,17 @@ h2{
 
 }
 
-button{       
+#botoninterfaz{
     background-color: #fcf9f9;
     color: rgb(0, 0, 0);
-    border: none;
+    text-align: left;
+    border-bottom: 500px;
+    margin-left: 20%;
     padding: 15px 30px;
     font-size: 18px;
+    border: none;
     border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    align-items: center;
 }
 
-.header-sensor{
-    position: relative;
-}
+
+
