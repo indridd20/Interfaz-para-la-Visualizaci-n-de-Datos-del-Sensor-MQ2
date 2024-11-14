@@ -8,19 +8,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="index.html"><button id="botonSalir">← Salir de la app</button></a>
-        <!--<button id="connectButton" type="submit">Conectar dispositivo</button>-->
-        <a href="sensor.html"><button>Volver a Sensor MQ2</button></a>
-    </header>
+    <a href="sensor.html"><button id="botonvolver2">Volver</button></a>
+    <!--<button id="connectButton" type="submit">Conectar dispositivo</button>-->
+    
     
     <main>
         <section class="main-container">
             <section>
-                <h2>Seleccione el puerto serie al que se conectará.</h2>
-                <label for="connectDropdown">Seleccionar conexión:</label>
+                <h2 >Seleccione el puerto serie <br> al que se conectará.</h2>
+                <label for="connectDropdown" id="configuracion">Seleccionar conexión:</label>
                 <select id="connectDropdown">
-                <option value="">Seleccionar tipo de conexión</option>
+                <option value="" disabled selected>Seleccionar tipo de conexión</option>
                 <option value="bluetooth">Bluetooth</option>
                 <option value="wifi">WiFi</option>
                 <option value="usb">USB</option>
@@ -31,7 +29,11 @@
                 </section>
             </section>
         </section>
+        
     </main>
+   
+    
+    <a href="index.html"><button id="botonSalir"onclick="goHome();" >Salir de la app →</button></a>
     <footer>
         <h6>© 2024  | Quinto Año PRoA</h6>
     </footer>   

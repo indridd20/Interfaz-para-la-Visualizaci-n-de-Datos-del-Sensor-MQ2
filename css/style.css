@@ -35,8 +35,8 @@ footer {
 
 h2{
     text-align: center;
-    margin-left: 10%;
-    margin-right: 50%;
+    margin-left: 40px;
+    margin-right: 10px;
     font-size: 30px;
     font-family:  'Poppins', sans-serif;
 }
@@ -87,6 +87,20 @@ h2{
 
 }
 
+
+
+#botonvolver2{
+    background-color: #fcf9f9;
+    color: rgb(0, 0, 0);
+    font-family:  'Poppins', sans-serif;
+    padding: 15px 45px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-bottom: 550px;
+    margin-left: 8px;
+    margin-right: 180px;
+}
+
 #botonComenzar {
     text-decoration: none;
     text-align: center;
@@ -106,18 +120,22 @@ h2{
     background-color: white;
     color: #263300;
     border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
+    border-radius: 10px;
+    padding: 15px 30px;
     font-size: 16px;
-    cursor: pointer;
-    text-decoration: none;
     text-align: center;
-    font-family:  Poppins, sans-serif;
-    margin-left: 42% ;
-    margin-top: 2%;
+    font-family:  'Poppins', sans-serif;
+    margin-bottom: 550px;
+    margin-left: 80px;
+    
 }
 
+#configuracion{
+    margin-top: 10px;
+    margin-left:70px;
+}
 #connectDropdown {
+    margin-top: 10px;
     background-color: white; /* Fondo blanco */
     color: #263300; /* Color del texto */
     border: 1px solid #ccc; /* Borde gris claro */
@@ -126,7 +144,12 @@ h2{
     font-size: 16px; /* Tamaño de la fuente */
     cursor: pointer; /* Cambia el cursor al pasar por encima */
     transition: border-color 0.3s; /* Efecto de transición */
+    margin-bottom: 8px;
+    margin-left: 15px;
+
 }
+
+
 
 #connectDropdown:hover {
     border-color: #263300; /* Cambia el borde al pasar el mouse */
@@ -141,10 +164,12 @@ h2{
     display: flex;
     background-color: #043927;
     border-radius: 15px;
-    padding: 40px;
-    width: 80%;
-    max-width: 1400px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    padding: 60px;
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
 }
 
 .left-section {
@@ -189,6 +214,7 @@ h2{
     justify-content: center;
     align-items: center;
     border: 4px solid white;
+    margin-top: 20px;
 }
 
 .result-box p {
