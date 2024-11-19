@@ -42,7 +42,6 @@ function connectBluetoothDevice(): void {
         })
         .then((device: BluetoothDevice) => {
         console.log('Dispositivo Bluetooth conectado:', device);
-        // Aquí puedes agregar más lógica para interactuar con el dispositivo Bluetooth
         })
         .catch((error: DOMException) => {
         console.error('Error al conectar con el dispositivo Bluetooth:', error);
