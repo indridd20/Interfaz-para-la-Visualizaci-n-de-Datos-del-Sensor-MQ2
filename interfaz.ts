@@ -25,12 +25,6 @@ if (connectDropdown) {
         case "bluetooth":
             connectBluetoothDevice();
             break;
-        case "wifi":
-            connectWiFiDevice();
-            break;
-        case "usb":
-            connectUSBDevice();
-            break;
         default:
             console.log("Por favor, selecciona una opción válida.");
     }
