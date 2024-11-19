@@ -41,25 +41,7 @@ h2{
     font-family:  'Poppins', sans-serif;
 }
 
-/*#connectButton {
-    margin-top: 20px;         /* Espacio entre el párrafo y el botón 
-    background-color: #4b5320;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    font-size: 18px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    align-items: center;
-} 
-*/
 
-/*#connectButton:hover {
-    background-color: #3b4218;
-
-}
-*/
 
 #botoninterfaz{
     background-color: #fcf9f9;
